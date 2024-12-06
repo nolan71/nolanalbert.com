@@ -2686,7 +2686,7 @@ img.u-pull-left {
 }
 
 .text-huge-title {
-    --text-huge : 10.8rem;
+    --text-huge : 8rem;
     font-size   : var(--text-huge);
     line-height : 1.0740;
     margin-top  : 0;
@@ -3215,7 +3215,7 @@ img.u-pull-left {
     z-index          : 1;
     list-style       : none;
     display          : flex;
-    font-size        : 1rem;
+    font-size        : 1.5rem;
     font-weight      : 400;
     text-transform   : uppercase;
     letter-spacing   : .3em;
