@@ -15,7 +15,7 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 800,
+        duration: 150,
         autoplay: false
     })
     .add({
@@ -43,7 +43,7 @@
         targets: [ '.s-intro .text-pretitle', '.s-intro .text-huge-title'],
         translateX: [100, 0],
         opacity: [0, 1],
-        delay: anime.stagger(400)
+        delay: anime.stagger(200)
     })
     .add({
         targets: '.circles span',
@@ -197,7 +197,7 @@
                         opacity: [0, 1],
                         translateY: [100, 0],
                         delay: anime.stagger(400, {start: 200}),
-                        duration: 800,
+                        duration: 300,
                         easing: 'easeInOutCubic',
                         begin: function(anim) {
                             current.classList.add("ss-animated");
