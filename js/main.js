@@ -15,7 +15,7 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 150,
+        duration: 400,
         autoplay: false
     })
     .add({
