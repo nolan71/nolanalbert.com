@@ -4019,9 +4019,13 @@ img.u-pull-left {
         height    : auto;
     }
 
-    .folio-list__item-text,
-    .folio-list__proj-link {
-        display : none;
+    .folio-list__item-text {
+        display : none
+    }
+
+
+    .folio-list__proj-link svg path{
+        fill    : black
     }
 
     .modal-popup__desc {
